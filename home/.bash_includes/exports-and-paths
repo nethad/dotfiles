@@ -1,0 +1,8 @@
+# Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# add homebrew to path
+export PATH=~/bin:/usr/local/sbin:/usr/local/bin:$PATH

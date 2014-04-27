@@ -1,0 +1,13 @@
+# aliases
+alias service.postgres='pg_ctl -D /usr/local/var/postgres -l logfile'
+alias service.mongod='mongod --fork --logpath /var/log/mongodb.log'
+alias service.pow='sudo launchctl load -w /Library/LaunchDaemons/cx.pow.firewall.plist && launchctl load -w ~/Library/LaunchAgents/cx.pow.powd.plist'
+
+alias b='bundle'
+alias be='bundle exec'
+alias g='git'
+alias ff='find-files.sh'
+alias st='open -a SourceTree'
+alias ll='ls -al'
+alias r='bundle exec rails'
+alias jb='jruby -S bundle'
