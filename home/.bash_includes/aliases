@@ -1,5 +1,5 @@
 # aliases
-alias service.postgres='pg_ctl -D /usr/local/var/postgres -l logfile'
+alias service.postgres='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
 alias service.mongod='mongod --fork --logpath /var/log/mongodb.log'
 alias service.pow='sudo launchctl load -w /Library/LaunchDaemons/cx.pow.firewall.plist && launchctl load -w ~/Library/LaunchAgents/cx.pow.powd.plist'
 
@@ -11,3 +11,5 @@ alias st='open -a SourceTree'
 alias ll='ls -al'
 alias r='bundle exec rails'
 alias jb='jruby -S bundle'
+alias impossibrew='brew'
+
