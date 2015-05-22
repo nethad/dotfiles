@@ -1,0 +1,36 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Base16 Color Schemes",
+		"Better CoffeeScript",
+		"ColorPicker",
+		"DashDoc",
+		"EasyDiff",
+		"Git",
+		"GitGutter",
+		"GitHub Flavored Markdown Preview",
+		"Github Tools",
+		"Handlebars",
+		"HTML-CSS-JS Prettify",
+		"Indent XML",
+		"LESS",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Pretty JSON",
+		"RailsCasts Colour Scheme",
+		"Railscasts Extended",
+		"Ruby Slim",
+		"Sass",
+		"Solarized Color Scheme",
+		"SublimeLinter",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
+		"Theme - Brogrammer",
+		"VAlign"
+	]
+}
