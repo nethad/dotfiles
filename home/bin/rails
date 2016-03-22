@@ -1,8 +1,0 @@
-#!/usr/bin/env sh
-if [ -x bin/rails ];
-then
-  echo "Yay!"
-  bin/rails $*
-else
-  echo "Run bundle exec rails or install binstubs with bundle install --binstubs."
-fi

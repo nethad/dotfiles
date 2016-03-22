@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/Railscasts Extended/Railscasts Extended.tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
@@ -20,16 +20,17 @@
 		"bold",
 		"subpixel_antialias"
 	],
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"SublimeLinter",
 		"Vintage"
 	],
 	"index_files": true,
 	"rulers":
 	[
-		100
+		120
 	],
 	"scroll_past_end": true,
 	"show_full_path": true,

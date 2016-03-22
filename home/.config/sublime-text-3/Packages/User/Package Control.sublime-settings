@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -18,12 +19,15 @@
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
 		"Indent XML",
+		"Javascript Beautify",
+		"JavaScriptNext - ES6 Syntax",
 		"LESS",
 		"OmniMarkupPreviewer",
 		"Package Control",
 		"Pretty JSON",
 		"RailsCasts Colour Scheme",
 		"Railscasts Extended",
+		"RAML Syntax Highlighter",
 		"Ruby Slim",
 		"Sass",
 		"Solarized Color Scheme",

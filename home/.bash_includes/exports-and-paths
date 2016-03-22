@@ -2,7 +2,9 @@
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # rbenv
+export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# eval "$(rbenv init -)"
 
 # add homebrew to path
 export PATH=~/bin:/usr/local/sbin:/usr/local/bin:$PATH

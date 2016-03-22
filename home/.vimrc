@@ -1,27 +1,27 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" set rtp+=~/.vim/bundle/vundle/
+" call vundle#rc()
 
 " shortcuts
 nmap <silent> <c-n> :NERDTreeToggle<CR>
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails.git'
-Bundle 'msanders/snipmate.vim.git'
-Bundle 'scrooloose/nerdtree.git'
+" Bundle 'gmarik/vundle'
+" Bundle 'tpope/vim-fugitive'
+" Bundle 'tpope/vim-rails.git'
+" Bundle 'msanders/snipmate.vim.git'
+" Bundle 'scrooloose/nerdtree.git'
 
 " Color schemes
-Bundle 'altercation/vim-colors-solarized.git'
+" Bundle 'altercation/vim-colors-solarized.git'
 
 set background=dark
 syntax enable
 let g:solarized_termtrans=1
-colorscheme solarized
+" colorscheme solarized
 
 set expandtab
 set tabstop=2

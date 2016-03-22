@@ -1,0 +1,50 @@
+[user]
+	name = Thomas Ritter
+	email = thomas.ritter@simplificator.com
+[color]
+	ui = true
+[mergetool "diffmerge"]
+	cmd = diffmerge.sh --nosplash --merge --result=$MERGED $LOCAL $BASE $REMOTE
+	trustExitCode = false
+[core]
+	excludesfile = /Users/thomasritter/.gitignore_global
+	precomposeunicode = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[difftool "kdiff3"]
+    path = /usr/local/bin/kdiff3
+    trustExitCode = false
+[difftool]
+    prompt = false
+[diff]
+    tool = kdiff3
+[mergetool "kdiff3"]
+	path = /usr/local/bin/kdiff3
+    trustExitCode = false
+[mergetool]
+    keepBackup = false
+[merge]
+	tool = diffmerge
+[branch]
+    autosetuprebase = always
+    autosetupmerge = true
+
+[alias]
+	co = checkout
+	pl = pull
+	br = branch
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = simple
+[github]
+	user = nethad
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
